@@ -1,0 +1,30 @@
+{
+  "name": "decentralized-lottery-system",
+  "version": "1.0.0",
+  "description": "A decentralized lottery system built with Solidity and Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network coreTestnet"
+  },
+  "keywords": [
+    "solidity",
+    "hardhat",
+    "ethereum",
+    "blockchain",
+    "lottery",
+    "core-blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "hardhat": "^2.20.1"
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decentralized Lottery System</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎟️ Decentralized Lottery System</h1>
+
+    <button id="connectButton">Connect Wallet</button>
+
+    <div class="lottery">
+      <h2>Enter Lottery</h2>
+      <input type="number" id="ticketPrice" placeholder="Ticket Price in ETH" />
+      <button id="enterLottery">Enter</button>
+    </div>
+
+    <div class="lottery">
+      <h2>Get Players</h2>
+      <button id="getPlayers">Show Players</button>
+      <ul id="playersList"></ul>
+    </div>
+
+    <div class="lottery">
+      <h2>Pick Winner</h2>
+      <button id="pickWinner">Pick Winner (Manager only)</button>
+      <p id="winnerResult"></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

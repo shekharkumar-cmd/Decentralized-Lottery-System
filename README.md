@@ -5,7 +5,7 @@ The **Decentralized Lottery System** is a blockchain-based lottery where partici
 
 ---
 
-## 🎯 Project Vision
+## Project Vision
 Our vision is to create a **trustless, transparent, and fair lottery system** that is not controlled by a central authority. By leveraging blockchain, participants gain confidence in the fairness of the process.
 
 ---

@@ -13,6 +13,7 @@ async function main() {
   console.log("Decentralized Lottery System deployed to:", lottery.address);
 }
 
+
 main()
   .then(() => process.exit(0))
   .catch((error) => {

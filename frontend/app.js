@@ -58,3 +58,7 @@ document.getElementById("connectButton").onclick = connectWallet;
 document.getElementById("enterLottery").onclick = enterLottery;
 document.getElementById("getPlayers").onclick = getPlayers;
 document.getElementById("pickWinner").onclick = pickWinner;
+
+
+
+

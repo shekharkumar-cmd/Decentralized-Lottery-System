@@ -1,4 +1,4 @@
-  # Decentralized Lottery System   
+ # Decentralized Lottery System   
 
 ## Project Description
 The **Decentralized Lottery System** is a blockchain-based lottery where participants can join by paying a small entry fee. A winner is selected randomly, and the prize pool is automatically transferred to the winner without intermediaries.
